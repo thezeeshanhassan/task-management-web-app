@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose")
-const taskRoutes = require("./routes/task")
+const taskRoutes = require("./routes/taskRoutes")
 
 const app = express();
 const PORT = 3000;
